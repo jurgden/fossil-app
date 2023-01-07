@@ -14,7 +14,9 @@ class Homepage extends React.Component {
           <div className="container">
             <h1>Welcome to Tierra</h1>
             <p>This is the homepage of my Fossil & Mineral app.</p>
-            <ImageCarousel images={[{ src: paleo, caption: "Fossil" }]} />
+            <div className="slide">
+              <ImageCarousel images={[{ src: paleo, caption: "Fossil" }]} />
+            </div>
             <section>{/* first text body goes here */}</section>
             <section>{/* second text body goes here */}</section>
             <section>{/* third text body goes here */}</section>
