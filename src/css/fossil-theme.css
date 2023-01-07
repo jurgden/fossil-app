@@ -1,0 +1,37 @@
+/* main background color */
+body {
+    background-color: #BDBDBD;
+  }
+  
+  /* accent colors */
+  .fossil-theme {
+    color: #212121;
+  }
+  .fossil-theme a {
+    color: #455A64;
+  }
+  
+  /* header and footer */
+  .fossil-theme header,
+  .fossil-theme footer {
+    background-color: #455A64;
+    color: #FFF;
+  }
+  
+  /* page content */
+  .fossil-theme .page-content {
+    background-color: #FFF;
+    color: #212121;
+  }
+  
+  /* buttons */
+  .fossil-theme button {
+    background-color: #455A64;
+    color: #FFF;
+    border: none;
+  }
+  .fossil-theme button:hover {
+    background-color: #FFF;
+    color: #212121;
+  }
+  

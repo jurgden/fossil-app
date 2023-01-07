@@ -1,0 +1,7 @@
+.image-carousel .slide {
+    width: 200px; /* increase the width of the images */
+    height: 200px; /* increase the height of the images */
+    background-position: center;
+    background-size: cover;
+  }
+  
