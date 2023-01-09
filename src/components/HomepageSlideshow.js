@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ImageCarousel = ({ images }) => {
+const HomepageSlideshow = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [translateValue, setTranslateValue] = useState(0);
 
@@ -53,4 +53,4 @@ const ImageCarousel = ({ images }) => {
   );
 };
 
-export default ImageCarousel;
+export default HomepageSlideshow;

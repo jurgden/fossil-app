@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/home-page.css";
 import "../css/fossil-theme.css";
-import "../css/image-carousel.css";
-import ImageCarousel from "./ImageCarousel";
-import paleo from "../assets/paleo.png";
+import "../css/slide-show.css";
+import HomepageSlideshow from "./HomepageSlideshow.js";
+import ImageReel from "./ImageReel.js";
 
 class Homepage extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class Homepage extends React.Component {
             <h1>Welcome to Tierra</h1>
             <p>This is the homepage of my Fossil & Mineral app.</p>
             <div className="slide">
-              <ImageCarousel images={[{ src: paleo, caption: "Fossil" }]} />
+              <HomepageSlideshow images={ImageReel} />
             </div>
             <section>{/* first text body goes here */}</section>
             <section>{/* second text body goes here */}</section>
